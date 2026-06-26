@@ -5,7 +5,7 @@ const GLOBE_IMAGE_URL = "//unpkg.com/three-globe/example/img/earth-blue-marble.j
 const BUMP_IMAGE_URL = "//unpkg.com/three-globe/example/img/earth-topology.png";
 const BACKGROUND_IMAGE_URL = "//unpkg.com/three-globe/example/img/night-sky.png";
 const COUNTRIES_GEOJSON_URL = "https://unpkg.com/three-globe/example/img/ne_110m_admin_0_countries.geojson";
-const BACKEND_SIMULATE_URL = "http://localhost:8000/api/simulate";
+const BACKEND_SIMULATE_URL = "https://oil-simulator.onrender.com/api/simulate";
 
 function Dashboard() {
   const globeRef = useRef();
